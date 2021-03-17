@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a.link:link{
+            text-decoration: none;
+            background-color: hotpink ; 
+        }
+        a.visited:visited{
+            color: orange ;
+        }
+        a.hover:hover{
+            color:violet;
+        }
+        a.active:active{
+            color: lime ;
+        }
+        a.try1:link, a.try1:visited{
+            color: green ;
+            text-decoration: none;
+            border: 2px solid green;
+            font-size: 50px;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        a.try1:hover, a.try1:active{
+            color: white;
+            background-color: green;
+        }
+        a.try2:link, a.try2:visited{
+            
+            background-color: #f44336;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 50px;
+        }
+        a.try2:hover, a.try2:active{
+            color: #ffffff;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <a class="link" href="#none">Normal link</a> <br><br><br><br>
+    <a class="visited" href="#none">Visited link</a> <br><br><br><br>
+    <a class="hover" href="#none">On Hover link</a> <br><br><br><br>
+    <a class="active" href="#none">Active link</a><br><br><br><br>
+    <a class="try1" href="#">Try this</a><br><br><br><br>
+    <a class="try2" href="#">Try this</a>
+    
+</body>
+</html>

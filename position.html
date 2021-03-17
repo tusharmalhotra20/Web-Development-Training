@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning</title>
+    <style>
+        .static{
+            position: static;
+            border: 2px solid green;
+            padding: 10px ;
+            width: 50% ;
+            font-size: larger;
+        }
+        .relative{
+            position: relative;
+            border: 2px solid red ;
+            padding: 10px;
+            width: 50%;
+            font-size: larger;
+            top: 100px;
+            left: 100px;
+        }
+        .fixed{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            border: 2px solid blue;
+            background-color: chartreuse;
+            padding: 10px;
+            width: 50%;
+            font-size: larger;
+        }
+        .absolute{
+            position: absolute;
+            top: 280px;
+            left: 0;
+            border: 2px solid orange;
+            padding: 10px ;
+            width: 50% ;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="static">
+        This is a <q>static</q> positioned element. It is <q>default</q> positioning system for all elements. 
+    </div>
+
+    <div class="relative">
+        This is <q>relative</q> positioned element. A relative positioned element is one which is relative to its normal position. <b>100px from top & 100px from left.</b> 
+    </div>
+
+    <div class="fixed">
+        This is <q>fixed</q> positioned element. A fixed positioned element is one in which the element is positioned relative to the viewport. Which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+    </div>
+
+    <div class="absolute">
+        <p>This is <q>absolute</q> positioned element. A absolute positioned element is one in which the element is positioned relative to the nearest positioned ancestor.</p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+</body>
+</html>
